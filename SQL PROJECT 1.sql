@@ -50,7 +50,7 @@ SELECT sales.userid  , sum( product.price) from sales
 
 join product
 ON sales.product_id = product.product_id
-group by sales.userid  order by userid;
+group by userid  order by userid;
 
 /* how many days has each customer visited zomato */ 
 
